@@ -5,7 +5,7 @@
 <a href='https://jitpack.io/#SamantSumanDev/Arcana-Toast'><img src='https://jitpack.io/v/SamantSumanDev/Arcana-Toast.svg'/></a>
 
 ![GitHub Cards Preview](https://github.com/SamantSumanDev/Arcana-Toast/blob/master/cover.png)
-
+![gif](https://github.com/SamantSumanDev/Arcana-Toast/blob/master/examplearcana_.gif)
 
 
 ## Dependency Project Level
