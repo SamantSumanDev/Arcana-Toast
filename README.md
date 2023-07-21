@@ -39,7 +39,7 @@ Add dependency in your app module
         1. TOAST_SUCCESS
         2. TOAST_ERROR
         3. TOAST_WARNING
-        4. TOAST_INFO
+        4. TOAST_HELP
 ```
 
 ## Toast Duration ⌛️ 
