@@ -29,7 +29,7 @@ Add dependency in your app module
 
 ```
 	dependencies {
-	        implementation 'com.github.SamantSumanDev:Arcana-Toast:1.1.1' 
+	        implementation 'com.github.SamantSumanDev:Arcana-Toast:https://jitpack.io/v/SamantSumanDev/Arcana-Toast)https://jitpack.io/v/SamantSumanDev/Arcana-Toast' 
 	}
 
 ```
