@@ -1,5 +1,7 @@
 # Arcana-Toast
 
+<a href='https://jitpack.io/#SamantSumanDev/Arcana-Toast'><img src='https://jitpack.io/v/SamantSumanDev/Arcana-Toast.svg'/></a>
+
 
 ## Dependency Project Level
 
