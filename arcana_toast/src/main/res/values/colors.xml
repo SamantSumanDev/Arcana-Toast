@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#0340DA</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!--    Background Colors 1-->
+    <color name="dark_warning_color_1">#EF8D32</color>
+    <color name="dark_error_color_1">#F64B3C</color>
+    <color name="dark_success_color_1">#4E8D7C</color>
+    <color name="dark_info_color_1">#0340DA</color>
+    <color name="dark_delete_color_1">#3282B8</color>
+
+     <!--    Background Colors 2-->
+    <color name="dark_warning_color_2">#F88F01</color>
+    <color name="dark_error_color_2">#DB3056</color>
+    <color name="dark_success_color_2">#2D6A4F</color>
+    <color name="dark_info_color_2">#0340DA</color>
+    <color name="dark_delete_color_2">#0070AC</color>
+
+     <!--    Background Colors 3-->
+    <color name="dark_warning_color_3">#FC8621</color>
+    <color name="dark_error_color_3">#C72C41</color>
+    <color name="dark_success_color_3">#0C7040</color>
+    <color name="dark_info_color_3">#0340DA</color>
+    <color name="dark_delete_color_3">#0070E0</color>
+
+
+     <!--  Light  Background Colors 1-->
+    <color name="light_warning_color_1">#FFB446</color>
+    <color name="light_error_color_1">#F64B3C</color>
+    <color name="light_success_color_1">#76BF4C</color>
+    <color name="light_info_color_1">#0340DA</color>
+    <color name="light_delete_color_1">#56B6E4</color>
+
+     <!--  Light  Background Colors 2-->
+    <color name="light_warning_color_2">#F9943B</color>
+    <color name="light_error_color_2">#FC2E20</color>
+    <color name="light_success_color_2">#4EC33D</color>
+    <color name="light_info_color_2">#0340DA</color>
+    <color name="light_delete_color_2">#65ACF0</color>
+
+     <!--  Light  Background Colors 3-->
+    <color name="light_warning_color_3">#F88F01</color>
+    <color name="light_error_color_3">#F63E50</color>
+    <color name="light_success_color_3">#03A65A</color>
+    <color name="light_info_color_3">#0340DA</color>
+    <color name="light_delete_color_3">#739BE5</color>
+
+
+
+
+    <!--  text  Background Colors 1-->
+
+
+    <color name="dark_warning_graphics_color_1">#CC561E</color>
+    <color name="dark_error_txt_color_1">#C81912</color>
+    <color name="dark_success_txt_color_1">#045762</color>
+    <color name="dark_info_txt_color_1">#0340DA</color>
+    <color name="dark_delete_txt_color_1">#3282B8</color>
+
+     <!--  text  Background Colors 2-->
+    <color name="dark_warning_graphics_color_2">#B15500</color>
+    <color name="dark_error_graphics_color_2">#851D41</color>
+    <color name="dark_success_graphics_color_2">#004440</color>
+    <color name="dark_info_graphics_color_2">#0340DA</color>
+    <color name="dark_delete_graphics_color_2">#0070AC</color>
+
+     <!--  text  Background Colors 3-->
+    <color name="dark_warning_graphics_color_3">#C24914</color>
+    <color name="dark_error_graphics_color_3">#801336</color>
+    <color name="dark_success_graphics_color_3">#004E32</color>
+    <color name="dark_info_graphics_color_3">#0340DA</color>
+    <color name="dark_delete_graphics_color_3">#0070E0</color>
+
+
+     <!-- text Light  Background Colors 1-->
+    <color name="light_warning_graphics_color_1">#C37602</color>
+    <color name="light_error_graphics_color_1">#C81912</color>
+    <color name="light_success_graphics_color_1">#055816</color>
+    <color name="light_info_graphics_color_1">#0340DA</color>
+    <color name="light_delete_graphics_color_1">#56B6E4</color>
+
+     <!-- text Light  Background Colors 2-->
+    <color name="light_warning_graphics_color_2">#D05301</color>
+    <color name="light_error_graphics_color_2">#940000</color>
+    <color name="light_success_graphics_color_2">#2C7721</color>
+    <color name="light_info_graphics_color_2">#0340DA</color>
+    <color name="light_delete_graphics_color_2">#65ACF0</color>
+
+     <!-- text Light  Background Colors 3-->
+    <color name="light_warning_graphics_color_3">#B15500</color>
+    <color name="light_error_graphics_color_3">#99004D</color>
+    <color name="light_success_graphics_color_3">#005E38</color>
+    <color name="light_info_graphics_color_3">#0340DA</color>
+    <color name="light_delete_graphics_color_3">#739BE5</color>
+
+
+
+
+    <!--    Custom Colors-->
+    <color name="custom_warning_color">#FF9800</color>
+    <color name="custom_error_color">#F44336</color>
+    <color name="custom_success_color">#8BC34A</color>
+    <color name="custom_info_color">#2196F3</color>
+    <color name="custom_delete_color">#673AB7</color>
+    <color name="custom_dark_toast">#121212</color>
+
+
+
+
+
+
+    <!--    Background Transparent Colors-->
+    <color name="warning_bg_color">#33FBC02D</color>
+    <color name="error_bg_color">#33D32F2F</color>
+    <color name="success_bg_color">#3317B978</color>
+    <color name="info_bg_color">#330340DA</color>
+    <color name="delete_bg_color">#330288D1</color>
+
+    <!--    Dark Toast bg-->
+    <color name="dark_bg_color">#2F3032</color>
+
+</resources>

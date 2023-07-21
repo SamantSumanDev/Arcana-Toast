@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/color_toast_view"
+    android:layout_width="wrap_content"
+    android:layout_height="130dp"
+    android:layout_margin="30dp"
+    tools:ignore="MissingDefaultResource">
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/toast_round_background"
+        android:backgroundTint="@color/dark_success_color_1"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            app:cardBackgroundColor="#00FBC02D"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@dimen/dimen_0">
+
+            <ImageView
+                android:id="@+id/imgGraphics"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-60dp"
+                android:layout_marginBottom="-96dp"
+                android:src="@drawable/green_bubbles" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgTalk"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/success_talk"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/success_icon"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignStart="@+id/imgTalk"
+        android:layout_alignEnd="@+id/imgTalk"
+        android:layout_alignTop="@+id/imgTalk"
+        android:layout_alignBottom="@+id/imgTalk"
+
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="80dp"
+        android:paddingTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Well done!"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You successfully read this important message."
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
