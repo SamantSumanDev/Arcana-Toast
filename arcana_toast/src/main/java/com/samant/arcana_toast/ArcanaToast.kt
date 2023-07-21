@@ -17,7 +17,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
-import com.samant.arcana_toast.databinding.FullColorToastBinding
+import com.samant.arcana_toast.databinding.ArcanaToastBinding
 
 
 class ArcanaToast {
@@ -110,7 +110,7 @@ class ArcanaToast {
         ) {
             layoutInflater = LayoutInflater.from(context)
             // val binding = MotionToastBinding.inflate(layoutInflater)
-            val binding = FullColorToastBinding.inflate(layoutInflater)
+            val binding = ArcanaToastBinding.inflate(layoutInflater)
             val layout = binding.root
             when (style)
             {

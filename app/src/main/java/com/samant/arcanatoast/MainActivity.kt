@@ -8,6 +8,7 @@ import androidx.core.content.res.ResourcesCompat
 import com.samant.arcana_toast.ArcanaToast
 import com.samant.arcana_toast.ArcanaToastStyle
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var btnSuccess: Button
     private lateinit var btnError: Button
