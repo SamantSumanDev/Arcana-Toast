@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         btnSuccess.setOnClickListener {
             ArcanaToast.createToast(
                 this,
-                "Success",
-                "Submited Successfully",
+                "Well done!",
+                "You successfully read this important message.",
                 ArcanaToastStyle.SUCCESS,
                 ArcanaToast.GRAVITY_TOP,
                 ArcanaToast.LONG_DURATION,
@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
         btnError.setOnClickListener {
             ArcanaToast.createToast(
                 this,
-                "Error",
-                "Description",
+                "Oh snap!",
+                "Change a few things up and try submitting again.",
                 ArcanaToastStyle.ERROR,
                 ArcanaToast.GRAVITY_TOP,
                 ArcanaToast.LONG_DURATION,
@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
         btnWarning.setOnClickListener {
             ArcanaToast.createToast(
                 this,
-                "Warning",
-                "Description",
+                "Warning!",
+                "Sorry! There was a problem with your request.",
                 ArcanaToastStyle.WARNING,
                 ArcanaToast.GRAVITY_TOP,
                 ArcanaToast.LONG_DURATION,
@@ -60,8 +60,8 @@ class MainActivity : AppCompatActivity() {
         btnDelete.setOnClickListener {
             ArcanaToast.createToast(
                 this,
-                "Delete",
-                "Deleted successfully",
+                "Hi there!",
+                "Do you have a problem? Just use this contact form.",
                 ArcanaToastStyle.DELETE,
                 ArcanaToast.GRAVITY_TOP,
                 ArcanaToast.LONG_DURATION,
